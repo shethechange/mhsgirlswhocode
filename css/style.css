@@ -1,31 +1,3 @@
-/*=== MEDIA QUERY ===*/
-/*
-* ----------------------------------------------------------------------------------------
-Author       : Themefisher
-Template Name: Promodise
-Version      : 1.0
-* ----------------------------------------------------------------------------------------
-*/
-/*
-* ----------------------------------------------------------------------------------------
-* 01.GLOBAL CSS STYLE
-* 02.PRELOADER & BOUNCE CCS STYLE
-* 03.HOMEPAGE CSS STYLE
-    -LOGO CSS
-    -MENU CSS
-* 04.ABOUT CSS STYLE
-* 05.SERVICE CSS STYLE
-* 06.WORK CSS STYLE
-* 07.AVAILABLE CSS STYLE
-* 08.CONTACT CSS STYLE
-* 09.FOOTER CSS STYLE
-* ----------------------------------------------------------------------------------------
-*/
-/*
-* ----------------------------------------------------------------------------------------
-* 01.GLOBAL STYLE
-* ----------------------------------------------------------------------------------------
-*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700|Rubik:400,600,700");
 body {
   font-size: 16px;
@@ -36,9 +8,14 @@ body {
   position: relative;
 }
 
-p {
+h1, h2,h3, h4, h5, h6, p, footer, span {
+  font-family: "Poppins", sans-serif;
+}
+
+p, i, ul{
   line-height: 28px;
-  font-size: 15px;
+  font-size: 18px;
+    font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -79,7 +56,7 @@ img {
 }
 
 a:hover {
-  color: #635CDB;
+  color: #4361B7;
   text-decoration: none;
 }
 
@@ -124,7 +101,7 @@ h6 {
 }
 
 .f-color {
-  color: #635CDB;
+  color: #4361B7;
 }
 
 h5.subtitle {
@@ -162,7 +139,7 @@ h5.subtitle {
 }
 
 .section-title span {
-  color: #635CDB;
+  color: #4361B7;
 }
 
 .section {
@@ -171,7 +148,7 @@ h5.subtitle {
 
 .line {
   width: 50px;
-  background: #635CDB;
+  background: #4361B7;
   height: 1px;
   margin: 10px auto;
 }
@@ -200,7 +177,7 @@ h5.subtitle {
 .btn-hero,
 .btn-white:hover {
   color: #fff !important;
-  background: #635CDB;
+  background: #4361B7;
 }
 
 .btn-hero:focus {
@@ -209,13 +186,13 @@ h5.subtitle {
 
 .btn-black,
 .btn-hero:hover {
-  background-color: black;
+  background-color: #4361B7;
   color: #fff !important;
 }
 
 .btn-black:hover {
   color: #fff;
-  background: #635CDB;
+  background: #4361B7;
 }
 
 .btn-black:focus {
@@ -275,7 +252,7 @@ h5.subtitle {
 }
 
 .btn-trans-black:hover {
-  background: #635CDB !important;
+  background: #4361B7 !important;
 }
 
 /*---------- COLORS ----------*/
@@ -289,7 +266,7 @@ h5.subtitle {
 }
 
 .bg-feature {
-  background-color: #635CDB;
+  background-color: #4361B7;
 }
 
 .bg-primary {
@@ -327,7 +304,7 @@ h5.subtitle {
 }
 
 .feature-overlay {
-  background: #635CDB;
+  background: #4361B7;
   opacity: .97;
 }
 
@@ -421,7 +398,7 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white .navbar-nav a.active {
-  color: #635CDB;
+  color: #4361B7;
 }
 
 .navbar-brand img {
@@ -429,7 +406,7 @@ h5.subtitle {
 }
 
 .trans-navigation.header-white .btn-white {
-  background: #635CDB;
+  background: #4361B7;
   color: #fff;
 }
 
@@ -461,7 +438,7 @@ h5.subtitle {
 .dropdown-item:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #635CDB;
+  background-color: #4361B7;
 }
 
 .dropdown-toggle::after {
@@ -515,7 +492,7 @@ h5.subtitle {
  BANNER AREA
 ----------------------------------*/
 .banner-area .content-padding {
-  padding: 250px 0px 180px;
+  padding: 300px 0px 180px;
 }
 
 .content-padding {
@@ -538,7 +515,7 @@ h5.subtitle {
 
 .banner-content .subtitle {
   color: #fff;
-  background: #635CDB;
+  background: #4361B7;
   display: inline-block;
   padding: 3px 8px;
   margin-bottom: 20px;
@@ -546,7 +523,7 @@ h5.subtitle {
 }
 
 .subtitle {
-  color: #635CDB;
+  color: #4361B7;
 }
 
 .banner-content p {
@@ -565,19 +542,19 @@ h5.subtitle {
 }
 
 .banner-1 {
-  background: url("../images/banner/bg-2.jpg");
+  background: url("https://cdn.glitch.com/ba7e9136-d252-459d-8fd7-241dc194cc93%2Ftwo-women-looking-at-the-code-at-laptop-1181263.jpg?v=1580369394094");
   background-size: cover;
   position: relative;
 }
 
 .banner-2 {
-  background: url("../images/banner/slider-3.jpg");
+  background: url("https://cdn.glitch.com/ba7e9136-d252-459d-8fd7-241dc194cc93%2Fworking-woman-person-technology-7375.jpg?v=1580409454474");
   background-size: cover;
   position: relative;
 }
 
 .banner-3 {
-  background: url("../images/banner/banner-bg.jpg");
+  background: url("https://cdn.glitch.com/ba7e9136-d252-459d-8fd7-241dc194cc93%2Ftwo-women-looking-at-the-code-at-laptop-1181263.jpg?v=1580369394094");
   background-size: cover;
   position: relative;
 }
@@ -596,7 +573,17 @@ INner Pages
 }
 
 .page-banner-area {
-  background: url("../images/banner/1.jpg") no-repeat 50% 50%;
+  background: url("https://cdn.glitch.com/ba7e9136-d252-459d-8fd7-241dc194cc93%2Fworking-woman-technology-computer-7374.jpg?v=1580373793287") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.page-banner-area1 {
+  background: url("https://cdn.glitch.com/ba7e9136-d252-459d-8fd7-241dc194cc93%2Fworking-woman-person-technology-7375.jpg?v=1580409454474") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.page-banner-area2 {
+  background: url("https://cdn.glitch.com/ba7e9136-d252-459d-8fd7-241dc194cc93%2Flines-of-code-2653362.jpg?v=1580409456171") no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -643,7 +630,7 @@ INner Pages
 
 .intro-box span {
   font-size: 28px;
-  color: #635CDB;
+  color: #4361B7;
 }
 
 .intro-cta {
@@ -670,13 +657,15 @@ INner Pages
   position: absolute;
   right: 0px;
   content: "";
-  background: url("../images/banner/1.jpg") 50% 50%;
+  background: url("https://cdn.glitch.com/ba7e9136-d252-459d-8fd7-241dc194cc93%2Fabstract-business-code-coder-270348.jpg?v=1580373793836") 30% 60%;
   width: 40%;
   height: 100%;
   max-height: 560px;
   top: 0px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
 }
+
+
 
 .about-content {
   margin-top: 94px;
@@ -713,7 +702,7 @@ ABOUT PAGE
 -------------------------*/
 .about-list2 li i {
   margin-right: 10px;
-  color: #635CDB;
+  color: #4361B7;
 }
 
 .icon-3x {
@@ -721,7 +710,7 @@ ABOUT PAGE
 }
 
 .text-default {
-  color: #635CDB;
+  color: #4361B7;
 }
 
 .team-social li a {
@@ -762,7 +751,7 @@ HISTORY MISSION
 
 .strategy-text span {
   font-size: 61px;
-  color: #635CDB;
+  color: #4361B7;
   margin-bottom: 15px;
   display: block;
 }
@@ -776,7 +765,7 @@ HISTORY MISSION
   font-weight: 700;
   line-height: 70px;
   margin: 10px 0px;
-  color: #635CDB;
+  color: #fff;
 }
 
 .counter-stat i {
@@ -796,8 +785,8 @@ HISTORY MISSION
 }
 
 #counter .dark-overlay {
-  background: #000;
-  opacity: 0.95;
+  background: #4361B7;
+/*   opacity: 0.95; */
 }
 
 #counter {
@@ -843,7 +832,7 @@ HISTORY MISSION
   margin: 0 auto;
   border-radius: 100%;
   margin-bottom: 20px;
-  background: #635CDB;
+  background: #4361B7;
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
 }
@@ -868,7 +857,7 @@ HISTORY MISSION
 }
 
 .service-inner span {
-  color: #635CDB;
+  color: #4361B7;
 }
 
 /* ================================
@@ -950,7 +939,7 @@ SERVICE PAGE
   display: inline-block;
   border-radius: 100%;
   transition: all .3s ease 0s;
-  color: #635CDB;
+  color: #4361B7;
   border: 1px solid #eee;
 }
 
@@ -1030,7 +1019,7 @@ PRICING PAGE
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  border: 5px solid #ddd;
+  border: 6px solid #ddd;
 }
 
 .author-info p {
@@ -1051,7 +1040,7 @@ PRICING PAGE
 }
 
 .carousel-indicators li.active {
-  background: #635CDB;
+  background: #4361B7;
 }
 
 .testimonial-content {
@@ -1101,7 +1090,7 @@ PRICING PAGE
 }
 
 .text-color {
-  color: #635CDB;
+  color: #4361B7;
 }
 
 input[type=text], input[type=email] {
@@ -1200,7 +1189,7 @@ input[type=text], input[type=email] {
 
 .blog-block .read-more,
 .blog-block span {
-  color: #635CDB;
+  color: #4361B7;
 }
 
 /* =================================
@@ -1244,7 +1233,7 @@ BLOG PAGE
   left: 0px;
   top: 0px;
   font-family: "Font Awesome 5 Free";
-  color: #635CDB;
+  color: #4361B7;
   font-weight: 900;
 }
 
@@ -1263,7 +1252,7 @@ BLOG PAGE
   top: 0px;
   margin-right: 35px;
   margin-top: 15px;
-  color: #635CDB;
+  color: #4361B7;
 }
 
 .download a {
@@ -1276,7 +1265,7 @@ BLOG PAGE
 
 .download a i {
   margin-right: 15px;
-  color: #635CDB;
+  color: #4361B7;
 }
 
 /* ==================================
@@ -1309,7 +1298,6 @@ BLOG SINGLE
 #footer {
   padding-bottom: 60px;
   position: relative;
-  background: url("../images/bg/2.png");
   border-top: 1px solid #eee;
 }
 
@@ -1326,7 +1314,7 @@ BLOG SINGLE
 }
 
 .footer-widget h4 span {
-  color: #635CDB;
+  color: #4361B7;
   display: block;
   font-size: 60px;
   line-height: 60px;
@@ -1359,6 +1347,7 @@ BLOG SINGLE
   padding-top: 30px;
   margin-top: 30px;
   border-top: 1px solid #eee;
+    font-family: "Poppins", sans-serif;
 }
 
 .footer-text h6 {
@@ -1370,7 +1359,7 @@ BLOG SINGLE
 }
 
 .footer-text p.mail {
-  color: #635CDB;
+  color: #4361B7;
 }
 
 .bg-main {
@@ -1690,3 +1679,60 @@ BLOG SINGLE
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+#logo{
+    letter-spacing: 1px;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 100%;
+  padding: 3%;
+}
+
+#subpadding {
+  padding: 3%;
+}
+
+#white {
+  color: #fff;
+}
+
+
+#small {
+  width:60px;
+  height: 60px;
+}
+
+section {
+opacity: 0;
+transform: translate(0, 20px); 
+transition: all 1s;
+}
+
+section.visible {
+opacity: 1;
+transform: translate(0, 0); 
+}
+
+iframe{
+  width: 100%;
+  height: 400px;
+}
+
+#bluebg{
+    background: #4361B7;
+}
+
+.rounded-circle{
+  width:150px;
+  height: 150px;
+}
+
+
+@media screen and (max-width: 600px) {
+ #subpadding {
+    padding-bottom: -3%;
+}
+
+  
+  
+  
