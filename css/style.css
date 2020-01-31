@@ -569,7 +569,8 @@ INner Pages
 =========================================*/
 #page-banner {
   position: relative;
-  padding: 60px 0px 80px;
+  padding: 60px 0px 80px; 
+
 }
 
 .page-banner-area {
@@ -1725,6 +1726,15 @@ iframe{
 .rounded-circle{
   width:150px;
   height: 150px;
+}
+
+#moving {
+  transition: 0.3s;
+  -moz-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.15);
+}
+
+#moving:hover {
+  transform: scale(0.95);
 }
 
 
