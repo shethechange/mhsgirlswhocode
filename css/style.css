@@ -666,6 +666,18 @@ INner Pages
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
 }
 
+.about-bg-img1 {
+  position: absolute;
+  right: 0px;
+  content: "";
+/*   background: url("https://cdn.glitch.com/ba7e9136-d252-459d-8fd7-241dc194cc93%2Fabstract-business-code-coder-270348.jpg?v=1580373793836") 30% 60%; */
+  width: 40%;
+  height: 1%;
+/*   max-height: 560px; */
+  top: 0px;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+}
+
 
 
 .about-content {
